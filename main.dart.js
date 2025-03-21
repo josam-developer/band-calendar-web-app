@@ -40529,10 +40529,11 @@ A.QD.prototype={
 av(){var s,r,q
 this.aP()
 s=A.PQ().goc()
-r=s.length!==0?B.b.gM(s):null
-if(r!=null){q=this.c
-q.toString
-J.dF(A.eQ(q,!1,t.aS),new A.n5(r))}},
+r=s.length
+q=r!==0&&r>1?s[1]:null
+if(q!=null){r=this.c
+r.toString
+J.dF(A.eQ(r,!1,t.aS),new A.n5(q))}},
 K(a){var s=t.aS,r=t.YR
 return A.aCH(A.azz(null,A.y5(null,new A.ake(),new A.akf(),s,r)),new A.cV(B.mn,A.azG(new A.akg(),new A.akh(this),new A.aki(),new A.akj(),s,r),null))},
 C7(a){return this.a2O(a)},
@@ -40634,7 +40635,8 @@ A.DT.prototype={
 av(){var s,r,q,p=this
 p.aP()
 s=A.PQ().goc()
-r=s.length!==0?B.b.gM(s):null
+r=s.length
+r=r!==0&&r>1?s[1]:null
 p.as=r
 q=$.xv().Q
 q===$&&A.a()
