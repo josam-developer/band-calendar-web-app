@@ -1,11 +1,11 @@
 {
-    "name": "band_calendar",
-    "short_name": "band_calendar",
+    "name": "Band Calendar",
+    "short_name": "Band Calendar",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "App per la gestione dei calendari condivisi per band musicali.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
