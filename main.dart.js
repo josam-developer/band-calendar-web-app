@@ -41139,37 +41139,40 @@ b=t.z
 a=c.i1("indisponibilita").jN(0,"*, profili(nome)",b)
 a.tz("start_date","gte."+b0.a.n2())
 o=a
-s=6
-return A.B(d.b.i1("progetto_utente").jN(0,"id_utente",b).i0("id_progetto",b0.b),$async$nA)
-case 6:n=b3
+c=b0.b
+s=c!=null?6:7
+break
+case 6:s=8
+return A.B(d.b.i1("progetto_utente").jN(0,"id_utente",b).i0("id_progetto",c),$async$nA)
+case 8:n=b3
 a0=J.mC(J.Jd(n,new A.a5D()))
 a8.a=a0
 c=o
 a1=B.b.bF(a0,",")
 c.tz("or","("+("id_utente.in.("+a1+"),id_progetto.not.is.null")+")")
 o=c
-s=7
+case 7:s=9
 return A.B(o,$async$nA)
-case 7:m=b3
+case 9:m=b3
 l=A.a([],t.OF)
 if(J.eT(m))l=J.fi(m,new A.a5E(),t.gQ).du(0)
 c=l
 a1=A.S(c).h("aB<1>")
 l=A.a8(new A.aB(c,new A.a5F(a8),a1),!0,a1.h("m.E"))
-s=J.aC_(l,new A.a5G(b0))?8:9
+s=J.aC_(l,new A.a5G(b0))?10:11
 break
-case 8:c=l
+case 10:c=l
 a1=A.S(c).h("aB<1>")
 k=A.a8(new A.aB(c,new A.a5H(b0),a1),!0,a1.h("m.E"))
 a1=k
 c=A.S(a1).h("aa<1,j?>")
-s=10
+s=12
 return A.B(d.b.i1("progetto_utente").jN(0,"id_utente",b).Hx("id_progetto",A.a8(new A.aa(a1,new A.a5I(),c),!0,c.h("aA.E"))).Hx("id_utente",a8.a),$async$nA)
-case 10:j=b3
+case 12:j=b3
 i=J.mC(J.Jd(j,new A.a5J()))
-s=11
+s=13
 return A.B(d.b.i1("profili").rb(0,b).Hx("id_utente",i),$async$nA)
-case 11:j=b3
+case 13:j=b3
 h=J.fi(j,new A.a5K(),t.MN).du(0)
 for(d=k,c=B.b.gad(d),d=new A.e_(c,new A.a5L(a8),A.S(d).h("e_<1>"));d.A();){g=c.gI(0)
 for(b=h,a1=b.length,a2=0;a2<b.length;b.length===a1||(0,A.M)(b),++a2){f=b[a2]
@@ -41180,7 +41183,7 @@ a6=g.f
 g.toString
 Date.now()
 e=new A.fo(a3,a4,a5,a6,null,"")
-J.cX(l,e)}}}case 9:d=l
+J.cX(l,e)}}}case 11:d=l
 if(!b1.d)b1.a.$1(new A.uh(d))
 q=1
 s=5
@@ -41842,8 +41845,8 @@ if(a.gbc(a)){s=J.d(a.gM(a),0)
 J.cX(A.df(this.a,!1,t.d),new A.pk(s))}},
 $S:386}
 A.anX.prototype={
-$0(){var s=this.a
-return s.MF(B.b.gM(s.a.c).a)},
+$0(){var s=this.a,r=s.Q
+return s.MF(r==null?null:r.a)},
 $S:0}
 A.anS.prototype={
 $1(a){return A.a02(this.a.y,a)},
