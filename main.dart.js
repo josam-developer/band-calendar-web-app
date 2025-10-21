@@ -45597,7 +45597,6 @@ case 3:q=2
 g=p.pop()
 m=A.ar(g)
 l=A.aE(g)
-n.f.a(n.e)
 throw g
 o.push(5)
 s=4

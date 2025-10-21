@@ -3,7 +3,7 @@
     "short_name": "Band Calendar",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
+    "background_color": "#C5C9CC",
     "theme_color": "#0175C2",
     "description": "App per la gestione dei calendari condivisi per band musicali.",
     "orientation": "portrait-primary",
