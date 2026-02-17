@@ -48701,7 +48701,7 @@ i===$&&A.a()
 i=i.as
 i===$&&A.a()
 s=7
-return A.t(i.qz("get-entries-last-test",m.a!==0?m:null),$async$AL)
+return A.t(i.qz("get-entries",m.a!==0?m:null),$async$AL)
 case 7:l=d
 if(l.b===200){k=A.b([],t.OF)
 i=l.a
